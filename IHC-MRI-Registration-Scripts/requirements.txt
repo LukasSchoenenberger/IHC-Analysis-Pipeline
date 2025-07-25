@@ -1,0 +1,9 @@
+# Computer vision
+opencv-python>=4.11.0
+
+# Medical imaging libraries
+nibabel>=5.3.0
+SimpleITK>=2.4.0
+
+# Additional scientific utilities
+typing-extensions>=4.12.0
