@@ -1,0 +1,19 @@
+# Custom index for iaf library
+--extra-index-url https://ia-res.ethz.ch/pypi
+
+# Computer vision
+opencv-python>=4.11.0
+
+# Scientific image processing
+scikit-image>=0.24.0
+scikit-learn>=1.6.0
+
+# Progress bars
+tqdm>=4.67.0
+
+# Configuration and utilities
+pyyaml>=6.0.0
+psutil>=7.0.0
+
+# Custom IAF library (requires ETH Zurich PyPI index)
+iaf>=0.5.0

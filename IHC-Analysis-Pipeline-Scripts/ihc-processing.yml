@@ -1,0 +1,22 @@
+name: ihc-pipeline-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  # Base Python and system libraries
+  - python=3.11
+  - pip
+  
+  # Core scientific computing (conda versions for better compatibility)
+  - numpy>=1.26.0
+  - scipy>=1.15.0
+  - matplotlib>=3.10.0
+  - pandas>=2.2.0
+  
+  # Image processing
+  - pillow>=10.4.0
+  - tifffile>=2024.12.0
+  
+  # Additional packages via pip (using requirements.txt)
+  - pip:
+      - -r requirements.txt
