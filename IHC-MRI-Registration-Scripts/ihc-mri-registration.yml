@@ -1,0 +1,22 @@
+name: ihc-mri-registration
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Base Python and system libraries
+  - python=3.11
+  - pip
+  
+  # Core scientific computing
+  - numpy>=1.26.0
+  - scipy>=1.15.0
+  - matplotlib>=3.10.0
+  - scikit-image>=0.24.0
+  - scikit-learn>=1.6.0
+  
+  # Image processing
+  - pillow>=10.4.0
+  
+  # Additional packages via pip (using requirements file)
+  - pip:
+      - -r mri-requirements.txt
