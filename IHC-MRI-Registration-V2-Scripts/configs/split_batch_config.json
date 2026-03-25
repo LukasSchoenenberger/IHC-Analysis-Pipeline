@@ -1,0 +1,10 @@
+{
+    "filenames": [
+        "cortex_mask.nii.gz",
+        "lesion_core_mask.nii.gz",
+        "WM_crude_mask.nii.gz",
+        "lesion_manually_split.nii.gz"
+    ],
+    "last_parent_dir": "/media/laurin/users/laurin.egli/black_holes/co_registrations (Copy)",
+    "copy_to_annotation_masks": true
+}

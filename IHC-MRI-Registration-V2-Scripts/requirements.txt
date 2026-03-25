@@ -1,0 +1,17 @@
+# Core scientific computing
+numpy>=1.26.0
+scipy>=1.15.0
+matplotlib>=3.10.0
+scikit-image>=0.24.0
+scikit-learn>=1.6.0
+
+# Image processing
+pillow>=10.4.0
+
+# Medical imaging
+nibabel>=5.3.0
+SimpleITK>=2.4.0
+
+# GUI
+PyQt5>=5.15.0
+pyqtgraph>=0.13.0

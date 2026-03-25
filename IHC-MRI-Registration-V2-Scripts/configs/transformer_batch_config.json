@@ -1,0 +1,35 @@
+{
+    "subdirs": [
+        "Bielschowsky",
+        "GFAP",
+        "MBP_CR343"
+    ],
+    "transform_density_maps": true,
+    "transform_annotation_masks": false,
+    "copy_to_density_maps": true,
+    "rename_by_stain_dir": true,
+    "use_naming_pattern": true,
+    "naming_dict": [
+        {
+            "stain_dir": "Bielschowsky",
+            "pattern": "stain1",
+            "new_name": "Axon_Density"
+        },
+        {
+            "stain_dir": "GFAP",
+            "pattern": "stain2",
+            "new_name": "GFAP_Density"
+        },
+        {
+            "stain_dir": "MBP_CR343",
+            "pattern": "stain1",
+            "new_name": "Myelin_Density"
+        },
+        {
+            "stain_dir": "MBP_CR343",
+            "pattern": "stain2",
+            "new_name": "CR343_Density"
+        }
+    ],
+    "last_parent_dir": "/media/laurin/users/laurin.egli/black_holes/co_registrations (Copy)"
+}

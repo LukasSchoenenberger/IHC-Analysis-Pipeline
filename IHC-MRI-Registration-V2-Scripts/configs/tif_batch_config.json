@@ -1,0 +1,10 @@
+{
+    "subdirs": [
+        "MBP_CR343",
+        "Bielschowsky",
+        "GFAP"
+    ],
+    "last_parent_dir": "/media/laurin/users/laurin.egli/black_holes/co_registrations (Copy)",
+    "convert_density_maps": true,
+    "convert_annotation_masks": false
+}
